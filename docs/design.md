@@ -37,9 +37,11 @@ semantics and keyboard dismissal.
 
 - Website code and copy: GPL-3.0-only, root `LICENSE`. Adapted from
   Velmi1337/velmi1337.github.io (GPL-3.0-only); see the notice above.
-- Google Sans Flex and Roboto Flex are self-hosted, obtained from
-  [expressive-profile](https://github.com/metawka/expressive-profile). Their
-  exact OFL notices are in `assets/fonts/`.
+- Google Sans Flex (Latin subset) is self-hosted, obtained from
+  [expressive-profile](https://github.com/metawka/expressive-profile).
+  Cyrillic text uses [Nunito](https://fonts.google.com/specimen/Nunito), a
+  soft variable font with Cyrillic support, self-hosted from Google Fonts.
+  Both are SIL OFL 1.1; the exact notices are in `assets/fonts/`.
 - Rounded Material Symbols: Google, Apache-2.0, see `LICENSES/Apache-2.0.txt`.
   Sprite paths come from `@material-symbols/svg-400` 0.48.2.
 - Shape inspiration: expressive-profile, MIT, see
