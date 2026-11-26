@@ -17,7 +17,6 @@ html[data-mode=light]{color-scheme:light}html[data-mode=dark]{color-scheme:dark}
 .install-command{margin:18px 0;padding:20px 24px;border-radius:20px;background:var(--md-sys-color-surface-container-high);color:var(--md-sys-color-on-surface);overflow-x:auto}.install-command code{padding:0;background:transparent;font-size:16px;white-space:pre;overflow-wrap:normal}
 
 /* Adaptations for ikhlasulov.github.io (GPL-3.0-only) */
-.identity-card .avatar{width:190px;height:190px;flex-shrink:0;object-fit:cover;border-radius:58% 42% 45% 55%/48% 55% 45% 52%;box-shadow:0 10px 24px #0002}
 .project.namaz .app-icon{background:var(--accent-a-container);color:var(--on-accent-a-container)}
 .project.openrpm .app-icon{background:var(--accent-b-container);color:var(--on-accent-b-container);border-radius:24px 12px 24px 12px}
 .project.openrpm .shot{order:-1}
@@ -31,6 +30,6 @@ html[data-mode=light]{color-scheme:light}html[data-mode=dark]{color-scheme:dark}
 .more-card .icon{width:28px;height:28px;color:var(--md-sys-color-primary)}
 .more-card strong{font-size:20px;letter-spacing:-.02em}
 .more-card span{font-size:13px;color:var(--md-sys-color-on-surface-variant)}
-@media(max-width:1100px){.identity-card .avatar{width:130px;height:130px}}
-@media(max-width:800px){.identity-card .avatar{width:160px;height:160px}.project.openrpm .shot{order:0}}
-@media(max-width:380px){.identity-card .avatar{width:125px;height:125px}}
+@media(max-width:800px){.project.openrpm .shot{order:0}}
+
+@media(max-width:800px){.rail nav{gap:0}.rail-item{width:auto;flex:1;min-width:0}}
